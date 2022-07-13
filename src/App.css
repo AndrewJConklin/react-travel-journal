@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500&display=swap');
+
+body {
+  font-family: 'Edu SA Beginner', cursive;
+  max-width: 600px;
+  margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  background-color: #F55A5A;
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header--container {
   display: flex;
-  flex-direction: column;
+  padding: 10px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.header--container img {
+  margin-right: 7px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+  margin: 40px 30px 0px 30px;
+  display: flex;
+}
+
+.hero--img {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.maps--link {
+  display: flex;
+  font-size: 12px;
+}
+
+.maps--link img {
+  width: 7px;
+  height: 10px;
+}
+
+.maps--link p {
+  margin-left: 4px;
+  margin-right: 15px;
 }
