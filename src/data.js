@@ -1,7 +1,7 @@
 const data = [
   {
     title: 'Mount Fuji',
-    location: 'Japan',
+    location: 'JAPAN',
     maps: 'https://www.google.com/maps?q=mount+fuji&rlz=1C1GCEB_enUS931US931&um=1&ie=UTF-8&sa=X&ved=2ahUKEwix-Yyz-vX4AhVOEEQIHVVbA7IQ_AUoA3oECAIQBQ',
     startDate: '12 Jan, 2021',
     endDate: '24 Jan, 2021',
@@ -10,7 +10,7 @@ const data = [
   },
   {
     title: 'Syndey Opera House',
-    location: 'Australia',
+    location: 'AUSTRALIA',
     maps: 'https://www.google.com/maps/place/Sydney+Opera+House/@-33.8567844,151.213108,17z/data=!3m2!4b1!5s0x6b12ae67d234a27f:0xd6d4e9380ca1e32f!4m5!3m4!1s0x6b12ae665e892fdd:0x3133f8d75a1ac251!8m2!3d-33.8567844!4d151.2152967',
     startDate: '27 May, 2021',
     endDate: '8 Jun, 2021',
@@ -19,12 +19,12 @@ const data = [
   },
   {
     title: 'Geirangerfjord',
-    location: 'Norway',
+    location: 'NORWAY',
     maps: 'https://www.google.com/maps/place/Geirangerfjord/@62.104831,7.0051743,12z/data=!3m1!4b1!4m5!3m4!1s0x46169d427b268c51:0xb8c99540dcc397fe!8m2!3d62.101506!4d7.0940817',
     startDate: '01 oct, 2021',
     endDate: '18 Nov, 2021',
     description: 'The Geiranger Fjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality.',
-    imageURL: 'https://source.unsplash.com/WLxQvbMyfas'
+    imageURL: 'https://source.unsplash.com/3PeSjpLVtLg'
   },
 ]
 
